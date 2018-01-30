@@ -1,0 +1,81 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AIControl	../zeabus_command_sim/src/aicontrol.py	/^class AIControl:$/;"	kind:class	line:9
+AUV_SPEED	../zeabus_command_sim/src/constants.py	/^AUV_SPEED = 10 # assume$/;"	kind:variable	line:13
+Gate	../zeabus_command_sim/src/navigate.py	/^class Gate(object):$/;"	kind:class	line:7
+PATH_WIDTH	../zeabus_command_sim/src/constants.py	/^PATH_WIDTH = 5 # assume$/;"	kind:variable	line:7
+Window	../zeabus_vision_example/src/color_range_example.py	/^class Window:$/;"	kind:class	line:28
+__init__	../zeabus_command_sim/src/aicontrol.py	/^    def __init__(self):$/;"	kind:member	line:11
+__init__	../zeabus_command_sim/src/navigate.py	/^    def __init__(self):$/;"	kind:member	line:8
+__init__	../zeabus_vision_example/src/color_range_example.py	/^    def __init__(self):$/;"	kind:member	line:31
+aicontrol	../zeabus_command_sim/src/test.py	/^        aicontrol = AIControl()$/;"	kind:variable	line:9
+aicontrol.py	../zeabus_command_sim/src/aicontrol.py	1;"	kind:file	line:1
+cameraTopic	../zeabus_vision_example/src/color_range_example.py	/^    cameraTopic = rospy.get_param(nodeName+'\/cameraTopic',$/;"	kind:variable	line:342
+cameraTopic	../zeabus_vision_example/src/mission_example.py	/^    cameraTopic = rospy.get_param(nodeName + '\/cameraTopic',$/;"	kind:variable	line:39
+camera_callback	../zeabus_vision_example/src/color_range_example.py	/^def camera_callback(msg):$/;"	kind:function	line:161
+click	../zeabus_vision_example/src/color_range_example.py	/^click = False$/;"	kind:variable	line:17
+color_range_example.py	../zeabus_vision_example/src/color_range_example.py	1;"	kind:file	line:1
+compare_range	../zeabus_vision_example/src/color_range_example.py	/^def compare_range(l, u, l1, u1):$/;"	kind:function	line:209
+constants.py	../zeabus_command_sim/src/constants.py	1;"	kind:file	line:1
+create	../zeabus_vision_example/src/color_range_example.py	/^    def create(self, window_name):$/;"	kind:member	line:44
+create_range	../zeabus_vision_example/src/color_range_example.py	/^    def create_range(self, name):$/;"	kind:member	line:59
+depthAbs	../zeabus_command_sim/src/aicontrol.py	/^    def depthAbs(self, dep):$/;"	kind:member	line:126
+do_mission	../zeabus_vision_example/src/mission_example.py	/^def do_mission():$/;"	kind:function	line:24
+genyaml	../zeabus_vision_example/src/color_range_example.py	/^    def genyaml(self):$/;"	kind:member	line:147
+getState	../zeabus_command_sim/src/aicontrol.py	/^    def getState(self, data):$/;"	kind:member	line:77
+get_param	../zeabus_vision_example/src/color_range_example.py	/^    def get_param(self, name):$/;"	kind:member	line:117
+get_range	../zeabus_vision_example/src/color_range_example.py	/^    def get_range(self, name):$/;"	kind:member	line:71
+get_trackbar	../zeabus_vision_example/src/color_range_example.py	/^def get_trackbar():$/;"	kind:function	line:194
+has_color	../zeabus_vision_example/src/color_range_example.py	/^def has_color(window_name, k):$/;"	kind:function	line:177
+hsv	../zeabus_vision_example/src/color_range_example.py	/^hsv = None$/;"	kind:variable	line:20
+image_callback	../zeabus_vision_example/src/mission_example.py	/^def image_callback(msg):$/;"	kind:function	line:13
+image_h	../zeabus_vision_example/src/color_range_example.py	/^image_h = 240$/;"	kind:variable	line:23
+image_h	../zeabus_vision_example/src/mission_example.py	/^image_h = 240$/;"	kind:variable	line:8
+image_w	../zeabus_vision_example/src/color_range_example.py	/^image_w = 320$/;"	kind:variable	line:22
+image_w	../zeabus_vision_example/src/mission_example.py	/^image_w = 320$/;"	kind:variable	line:7
+img	../zeabus_vision_example/src/color_range_example.py	/^img = None$/;"	kind:variable	line:19
+img	../zeabus_vision_example/src/mission_example.py	/^img =None$/;"	kind:variable	line:11
+isCenterX	../zeabus_command_sim/src/aicontrol.py	/^    def isCenterX(self, x, angle):$/;"	kind:member	line:135
+is_mask	../zeabus_vision_example/src/color_range_example.py	/^is_mask = False$/;"	kind:variable	line:18
+lower	../zeabus_vision_example/src/mission_example.py	/^    lower = range_str2list(lower)$/;"	kind:variable	line:49
+lower	../zeabus_vision_example/src/mission_example.py	/^    lower = rospy.get_param('color_range\/color_example\/lower_orange')$/;"	kind:variable	line:47
+lower	../zeabus_vision_example/src/mission_example.py	/^lower = []$/;"	kind:variable	line:9
+mission_example.py	../zeabus_vision_example/src/mission_example.py	1;"	kind:file	line:1
+mission_gate	../zeabus_command_sim/src/navigate.py	/^    mission_gate = Gate()$/;"	kind:variable	line:29
+mouse_callback	../zeabus_vision_example/src/color_range_example.py	/^def mouse_callback(event, x, y, flags, param):$/;"	kind:function	line:170
+move	../zeabus_command_sim/src/aicontrol.py	/^    def move(self, direction, speed):$/;"	kind:member	line:25
+moveToPos	../zeabus_command_sim/src/aicontrol.py	/^    def moveToPos(self, x, y, z):$/;"	kind:member	line:45
+navigate.py	../zeabus_command_sim/src/navigate.py	1;"	kind:file	line:1
+nodeName	../zeabus_vision_example/src/color_range_example.py	/^    nodeName = 'color_range_example'$/;"	kind:variable	line:339
+nodeName	../zeabus_vision_example/src/mission_example.py	/^    nodeName = 'mission'$/;"	kind:variable	line:36
+nothing	../zeabus_vision_example/src/color_range_example.py	/^def nothing(x):$/;"	kind:function	line:158
+pixel	../zeabus_vision_example/src/color_range_example.py	/^pixel = {}$/;"	kind:variable	line:15
+push_range	../zeabus_vision_example/src/color_range_example.py	/^    def push_range(self, name, lower, upper):$/;"	kind:member	line:67
+range_list2str	../zeabus_vision_example/src/color_range_example.py	/^    def range_list2str(self, list):$/;"	kind:member	line:112
+range_str2list	../zeabus_vision_example/src/color_range_example.py	/^    def range_str2list(self, str):$/;"	kind:member	line:108
+range_str2list	../zeabus_vision_example/src/color_range_example.py	/^def range_str2list(str):$/;"	kind:function	line:205
+range_str2list	../zeabus_vision_example/src/mission_example.py	/^def range_str2list(str):$/;"	kind:function	line:19
+redo_range	../zeabus_vision_example/src/color_range_example.py	/^    def redo_range(self, name):$/;"	kind:member	line:85
+reset_range	../zeabus_vision_example/src/color_range_example.py	/^    def reset_range(self, name):$/;"	kind:member	line:96
+run	../zeabus_command_sim/src/navigate.py	/^    def run(self):$/;"	kind:member	line:18
+save	../zeabus_vision_example/src/color_range_example.py	/^    def save(self):$/;"	kind:member	line:129
+screen_h	../zeabus_vision_example/src/color_range_example.py	/^screen_h = 1080$/;"	kind:variable	line:25
+screen_w	../zeabus_vision_example/src/color_range_example.py	/^screen_w = 1920$/;"	kind:variable	line:24
+select_color	../zeabus_vision_example/src/color_range_example.py	/^def select_color():$/;"	kind:function	line:213
+set_trackbar	../zeabus_vision_example/src/color_range_example.py	/^def set_trackbar(lower, upper):$/;"	kind:function	line:184
+show_image	../zeabus_vision_example/src/color_range_example.py	/^    def show_image(self, window_name):$/;"	kind:member	line:102
+stop	../zeabus_command_sim/src/aicontrol.py	/^    def stop(self):$/;"	kind:member	line:148
+test.py	../zeabus_command_sim/src/test.py	1;"	kind:file	line:1
+turnAbs	../zeabus_command_sim/src/aicontrol.py	/^    def turnAbs(self, angle):$/;"	kind:member	line:114
+turnRelative	../zeabus_command_sim/src/aicontrol.py	/^    def turnRelative(self, angle):$/;"	kind:member	line:93
+undo_range	../zeabus_vision_example/src/color_range_example.py	/^    def undo_range(self, name):$/;"	kind:member	line:74
+update_position	../zeabus_vision_example/src/color_range_example.py	/^    def update_position(self):$/;"	kind:member	line:53
+upper	../zeabus_vision_example/src/mission_example.py	/^    upper = range_str2list(upper)$/;"	kind:variable	line:50
+upper	../zeabus_vision_example/src/mission_example.py	/^    upper = rospy.get_param('color_range\/color_example\/upper_orange')$/;"	kind:variable	line:48
+upper	../zeabus_vision_example/src/mission_example.py	/^upper = []$/;"	kind:variable	line:10
+wait	../zeabus_vision_example/src/color_range_example.py	/^wait = False$/;"	kind:variable	line:21
+zeabus_robot	../zeabus_command_sim/src/aicontrol.py	/^    zeabus_robot = ZeabusRobot()$/;"	kind:variable	line:162
